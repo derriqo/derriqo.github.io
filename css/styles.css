@@ -1,8 +1,7 @@
 body{
     /* background: linear-gradient(to right, #659999, #f4791f); */
-    font-family: 'PT Sans Narrow', sans-serif;
-    line-height: 1;
     height: 100%;
+
 }
 
 
@@ -67,14 +66,6 @@ html,body{
 ol, ul {
 	list-style: none;
 }
-/* blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-} */
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -133,12 +124,11 @@ section{
   align-items: flex-end;
   width: 100%;
   height: 100vh;
-  background: url(../images/derrick2.png) no-repeat;
+  background: url(../images/da-nina-1399243-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  /* background-color: #34495e; */
-  /* background-attachment: fixed; */
-  /* z-index: 9; */
+  background-color: #34495e; */
+  background-attachment: fixed;
 }
 
 .home h1{
@@ -146,7 +136,6 @@ section{
   text-transform: uppercase;
   text-shadow: 0 15px 20px #000000b0;
   margin-bottom: 0;
-  /* visibility: hidden; */
 }
 
 .home h5{
@@ -158,7 +147,6 @@ section{
   display: inline-block;
   letter-spacing: 2px;
   border-radius: 2px;
-  /* visibility: hidden; */
 }
 
 /*SECTION TITLE STYLE*/
@@ -176,62 +164,55 @@ section{
 /*PROJECTS SECTION STYLE*/
 .projects h3{
 font-size: 25px;
+
 }
-/* .projects{
-  width: 60%;
+.carousel-inner{
+  color: burlywood;
+}
+.projects{
+  width: 70%;
   margin: 0 auto;
   padding: 50px 0;
-  z-index: 99;
-} */
+  justify-content: center;
+}
 
 .aboutme{
   font-size: 25px;
   align-content: center;
+  justify-content: center
+}
+.about{
+  font-size: 25px;
+}
+.social{
+  align-items: center;
+  display: inline-block;
+  margin: auto auto;
+  align-self: center;
+}
+.fa-3x{
+  padding: 2rem;
+}
+.fa-envelope{
+  color: #000;
 }
 
-/*PROJECTS DETAILS SECTION STYLE*/
-.projectdetails{
-  width: 60%;
-  margin: 0 auto;
-  padding: 50px 0;
-  z-index: 99;
-}
-.projectdetails-info{
-/* float: left; */
-width: 30%;
-margin: 1%;
-}
-
-.projectdetails .col img{
-  max-width: 100%
-}
-
-/*SKILSS SECTION STYLE*/
-/* .skills{
-  width: 60%;
-  margin: 0 auto;
-  padding: 50px 0;
-  text-align: center;
-  z-index: 99;
-} */
 .skill-info{
   display:flex;
-  flex-wrap: wrap;
-  margin: 50px 0;
-  margin-top: 20px;
+  margin-top: 50px;
 }
-.skills .col{
-  width: 30%;
-  margin: 25px 1%;
-  text-align: center;
-}
+
 .skills img{
-  max-width: 80px;
+  width: 180px;
+  height:180px;
 }
 .skills h3{
   margin-top: 10px;
-  font-size:18px;
+float: inline-end;
+  font-size: 25px;
+  font-weight: bolder;
   margin-bottom: 15px;
+  margin-left: 50px;
 }
 
 .skills .col p{
@@ -239,7 +220,8 @@ margin: 1%;
 }
 
 /*CONTACT SECTION STYLE*/
-.contact{
+
+ .contact{
   width: 60%;
   margin: 0 auto;
   padding:50px 0;
@@ -249,33 +231,10 @@ margin: 1%;
   display:flex;
   justify-content: center;
   margin: 50px 0;
-}
-.contact-info ::placeholder{
   font-size: 25px;
 }
-.contact-info .textField{
-  width: 100%;
-  height: 50px;
-  border: 1px solid #fff;
-  box-sizing: border-box;
-  background-color: transparent;
-  padding: 15px 15px;
-  margin-bottom: 15px;
-  font-family: 'PT Sans Narrow', sans-serif;
-  color: #fff;
-  font-siz  e: 16px;
-}
-.contact-info .messageField{
-  height: 200px;
-  font-size: 20px;
-}
-.contact-info .submitButton{
-  background-color: blueviolet;
-  height: 50px;
-  font-weight: 600;
-  font-size:16px;
-  cursor: pointer;
-  text-transform: uppercase;
+.cool{
+  margin-left: 30px;
 }
 
 

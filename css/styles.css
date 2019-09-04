@@ -122,12 +122,12 @@ section{
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  width: 100%;
-  height: 100vh;
+  /* width: 100%;
+  height: 100vh; */
   background: url(../images/da-nina-1399243-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #34495e; */
+  /* background-color: #34495e; */ */
   background-attachment: fixed;
 }
 
@@ -166,6 +166,9 @@ section{
 font-size: 25px;
 
 }
+.carousel-caption{
+  font-size: 50px;
+}
 .carousel-inner{
   color: burlywood;
 }
@@ -183,6 +186,10 @@ font-size: 25px;
 }
 .about{
   font-size: 25px;
+  text-align: center;
+}
+.paragraph {
+  text-align: center;
 }
 .social{
   align-items: center;
@@ -205,6 +212,7 @@ font-size: 25px;
 .skills img{
   width: 180px;
   height:180px;
+  border-radius: 30%;
 }
 .skills h3{
   margin-top: 10px;
@@ -229,12 +237,9 @@ float: inline-end;
 }
 .contact-info{
   display:flex;
-  justify-content: center;
+  text-align: center;
   margin: 50px 0;
   font-size: 25px;
-}
-.cool{
-  margin-left: 30px;
 }
 
 

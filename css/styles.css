@@ -6,7 +6,7 @@ body{
 
 
 a:link {
-    color: green;
+    color: black;
     background-color: transparent;
     text-decoration: none;
   }
@@ -168,6 +168,7 @@ font-size: 25px;
 }
 .carousel-caption{
   font-size: 50px;
+  font-weight: bolder;
 }
 .carousel-inner{
   color: burlywood;
